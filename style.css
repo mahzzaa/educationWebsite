@@ -66,6 +66,7 @@ p {
   cursor: pointer;
   border-radius: 100px;
   transition: var(--transition);
+  margin-top: 34px;
 }
 
 .btn:hover{
@@ -184,10 +185,6 @@ section {
   margin-bottom: 24px;
 }
 
-.header-right p{
-  margin: 30px 0;
-}
-
 .header-right-bottom{
   margin-top: 48px;
   display: grid;
@@ -256,4 +253,13 @@ section {
 
 .playful-action-aria a img:nth-child(2) img{
   width: 150px;
+}
+
+/* vocabluary section */
+
+.vocabluary-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  align-items: center;
 }
