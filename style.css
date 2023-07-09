@@ -266,3 +266,18 @@ section {
   gap: 25px;
   align-items: center;
 }
+
+.vocabluary-right img{
+  width: 470px;
+}
+
+/* progress-container */
+#progress{
+  padding: 94px 0 !important;
+}
+
+.progress-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+}
