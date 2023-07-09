@@ -116,6 +116,10 @@ nav {
   display: none;
 }
 
+.close{
+  display: none;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -340,7 +344,7 @@ footer{
 
 /* media screen */
 
-/* max-width :1024 */
+/* max-width :768px */
 
 @media (max-width : 768px){
   h1{
@@ -357,7 +361,7 @@ footer{
     position: absolute;
     top: 80%;
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     background-color: var(--color-white);
     flex-direction: column;
     justify-content: center;
@@ -379,6 +383,10 @@ footer{
   }
 
   .nav-right h5{
+    display: none;
+  }
+
+  .nav-right-name{
     display: none;
   }
 
