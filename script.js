@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
     open.addEventListener('click', ()=>{
         open.style.display = 'none';
         close.style.display = 'inline-block';
-        navlink.style.left = '0'
+        navlink.style.left = '0';
     });
 
 
     close.addEventListener('click', ()=>{
         open.style.display = 'inline-block';
         close.style.display = 'none';
-        navlink.style.left = '-100%'
+        navlink.style.left = '-100%';
     });
 });
