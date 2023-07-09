@@ -256,6 +256,9 @@ section {
 }
 
 /* vocabluary section */
+#vocabluary{
+  padding: 0 !important;
+}
 
 .vocabluary-container{
   display: grid;
